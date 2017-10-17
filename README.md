@@ -1,8 +1,9 @@
 # Predicting Credit Worthiness Using Python & Scikit-Learn
 
-In this project we will be predicting whether an individual will pay their loan balances in full or not. We will build some machine learning models using Python and Scikit-learn. The dataset we will be using is the 2007-2010 Lending Club data which can be found [here](https://www.lendingclub.com/info/download-data.action). It contains 9578 observations and 14 variables. 
+**Project Description:**
+In this project we will be predicting whether an individual will pay their loan balances in full or not. We will build some machine learning models specifically logistic regression, decision tree, and random forest using Python and Scikit-learn. The dataset we will be using is the 2007-2010 Lending Club data which can be found [here](https://www.lendingclub.com/info/download-data.action). It contains 9578 observations and 14 variables. 
 
-**Description of the dataset:**
+**Data Dictionary:**
 * credit.policy: 1 if the customer meets the credit underwriting criteria of LendingClub.com, and 0 otherwise.
 * purpose: The purpose of the loan (takes values "credit_card", "debt_consolidation", "educational", "major_purchase", "small_business", and "all_other").
 * int.rate: The interest rate of the loan, as a proportion (a rate of 11% would be stored as 0.11). Borrowers judged by LendingClub.com to be more risky are assigned higher interest rates.
